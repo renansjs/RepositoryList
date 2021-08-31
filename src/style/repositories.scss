@@ -1,0 +1,28 @@
+section {
+  margin: 20px;
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    & + li {
+      margin-top: 20px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    color: #333;
+  }
+
+  a {
+    text-decoration: none;
+    color: #55a630;
+  }
+}
